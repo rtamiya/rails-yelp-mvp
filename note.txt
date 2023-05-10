@@ -1,0 +1,20 @@
+X generate model
+X check migration (add default values)
+X rails db:migrate
+X add associations and validations to model
+X crash-test it in rails c
+X seed (if necessary)
+X route
+controller / controller action
+view
+
+X A visitor can see the list of all restaurants.
+X GET "restaurants"
+X A visitor can add a new restaurant, and be redirected to the show view of that new restaurant.
+X GET "restaurants/new"
+X POST "restaurants"
+X A visitor can see the details of a restaurant, with all the reviews related to the restaurant.
+X GET "restaurants/38"
+A visitor can add a new review to a restaurant
+GET "restaurants/38/reviews/new"
+POST "restaurants/38/reviews"
